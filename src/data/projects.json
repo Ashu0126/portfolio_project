@@ -1,0 +1,66 @@
+{
+  "heading": "PROJECTS",
+  "description": "DESCRIPTION",
+  "githubText": "Github",
+  "githubIcon": "/img/github.png",
+  "liveText": "Live Site",
+  "liveIcon": "/img/liveLinkIcon.png",
+  "projects": [
+    {
+      "name": "Weather Buddy",
+      "img": "/img/weatherBuddy.png",
+      "description": "Weather Buddy is a simple and user-friendly weather app created using React and the OpenWeather API. It allows users to check real-time weather details of any city, providing information such as humidity, weather conditions, and wind speed.",
+      "github": "https://github.com/Ashu0126/weather-buddy",
+      "webLink": "https://weather-buddy-five.vercel.app/"
+    },
+    {
+      "name": "LVease: Leave Management System",
+      "img": "/img/lvease.png",
+      "description": "Streamline employee leave management with our efficient and user-friendly Leave Management System. Easily request, track, and manage leaves. Enhance HR productivity and ensure smooth workforce planning.",
+      "github": "https://github.com/Ashu0126/leave-management-system",
+      "webLink": "https://leave-management-system-five.vercel.app/"
+    },
+    {
+      "name": "Netflix Clone",
+      "img": "/img/netflixClone.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "github": "https://github.com/Ashu0126/Netflix_Clone",
+      "webLink": "https://netflix-clone-murex.vercel.app/"
+    },
+    {
+      "name": "Paytm Clone",
+      "img": "/img/paytmCLone.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "github": "https://github.com/Ashu0126/Final-Touch",
+      "webLink": "https://final-touch.vercel.app/"
+    },
+    {
+      "name": "Lernr",
+      "img": "/img/lernr.png",
+      "description": "Welcome to Lernr Lms. This is a learning management system. Have different types of course in it. You can log in, logout or even signup an account. The lms is built with node js, mongodb and node js",
+      "github": "https://github.com/Ashu0126/lernr_lms",
+      "webLink": "https://lernr-lms.herokuapp.com/"
+    },
+    {
+      "name": "Blog Site",
+      "img": "/img/blogApp.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "github": "https://github.com/Ashu0126/web.dev",
+      "webLink": "https://blogs-omega-ten.vercel.app/"
+    },
+    {
+      "name": "Travel",
+      "img": "/img/travel.png",
+      "description": "Welcome to the Travel Landing Page! This is a captivating landing page designed for a travel-related website, meant to engage and inspire visitors to explore the world.",
+      "github": "https://github.com/Ashu0126/Travel",
+      "webLink": "https://travel-ashu0126.vercel.app/"
+    },
+    {
+      "name": "Quote Generator",
+      "img": "/img/quoteGenerator.png",
+      "description": "The Project is simple. It can be used to draw a random Quote by clicking the generate Button.",
+      "github": "https://github.com/Ashu0126/quoteGenerator",
+      "webLink": "https://quote-generator-ashu0126.vercel.app/"
+    }
+  ]
+}
