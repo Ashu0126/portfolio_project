@@ -1,0 +1,23 @@
+@import "./../../../styles/variables.scss";
+
+.main {
+  position: absolute;
+  height: 100vh;
+
+  .aboutMe {
+    display: grid;
+    width: 45%;
+    margin: 3rem 4rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    span {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .photoMe {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
