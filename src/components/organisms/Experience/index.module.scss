@@ -17,7 +17,7 @@
     max-width: 46rem;
 
     &:before {
-      background-color: black;
+      background-color: $text-color;
       content: "";
       margin-left: -1px;
       position: absolute;
@@ -65,7 +65,7 @@
 
     h4 {
       font-size: 1em;
-      color: rgb(136, 136, 136);
+      color: $card-text;
       margin-bottom: 1.2em;
     }
 
@@ -80,7 +80,7 @@
 
   .timelineEventIcon {
     transition: 1s;
-    background-color: black;
+    background-color: $text-color;
     outline: 10px solid white;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -95,7 +95,7 @@
   .timelineEventThumbnail {
     color: $grey;
     font-size: 0.7rem;
-    background-color: black;
+    background-color: $text-color;
     display: inline-block;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
