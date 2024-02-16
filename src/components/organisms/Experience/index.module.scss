@@ -1,0 +1,104 @@
+@import "./../../../styles/variables.scss";
+
+.experienceSection {
+  h1 {
+    font-size: 6rem;
+    margin: 4rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  /* Styling */
+  .timeline {
+    margin: 4rem auto;
+    position: relative;
+    max-width: 46rem;
+
+    &:before {
+      background-color: black;
+      content: "";
+      margin-left: -1px;
+      position: absolute;
+      top: 0;
+      left: 2em;
+      width: 2px;
+      height: 100%;
+    }
+  }
+
+  .timelineEvent {
+    position: relative;
+
+    &:hover > .timelineEventIcon {
+      background-color: $grey;
+      transition: 1s;
+      animation: bounce 2s infinite;
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .timelineEventCopy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 80%;
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    h4 {
+      font-size: 1em;
+      color: rgb(136, 136, 136);
+      margin-bottom: 1.2em;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    p:not(.timelineEventThumbnail) {
+      padding-bottom: 1.2em;
+    }
+  }
+
+  .timelineEventIcon {
+    transition: 1s;
+    background-color: black;
+    outline: 10px solid white;
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 1.45rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .timelineEventThumbnail {
+    color: $grey;
+    font-size: 0.7rem;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+  }
+}
