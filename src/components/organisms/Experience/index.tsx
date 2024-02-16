@@ -16,7 +16,7 @@ const Experience = () => {
               <h4>Adani Digital Labs</h4>
               <p>
                 Successfully delivered multiple modules within specified
-                timelines, significantly enhancing the website's features and
+                timelines, significantly enhancing the websites features and
                 functionality.
                 <br />
                 <br />
@@ -43,7 +43,7 @@ const Experience = () => {
               <h3>Summer Intern</h3>
               <h4>NAWADCO: National Developement Corporation Ltd</h4>
               <p>
-                Successfully revamped the organization's website, receiving
+                Successfully revamped the organizations website, receiving
                 positive feedback for the improved user experience and
                 aesthetics.
                 <br />
