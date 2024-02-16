@@ -1,3 +1,4 @@
+import Footer from "../../molecules/Footer";
 import Navbar from "../../molecules/Navbar";
 import style from "./index.module.scss";
 
@@ -12,7 +13,7 @@ const HeroBanner = () => {
           front-end development. Latest work at Adani Digital Labs.
         </div>
         <div>
-          <img className={style.photoMe} src="/img/me.png" alt="" />
+          {/* <img className={style.photoMe} src="/img/me.png" alt="" /> */}
         </div>
       </div>
     </div>
