@@ -1,3 +1,5 @@
+@import "./../../../styles/variables.scss";
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -6,7 +8,7 @@
   height: 50vh;
   background-size: contain;
   background-position-x: right;
-  box-shadow: 1px 1px 20px gainsboro;
+  box-shadow: 1px 1px 20px $grey;
   position: relative;
 
   .social {
@@ -26,7 +28,7 @@
       gap: 1rem;
     }
     img {
-      background-color: gainsboro;
+      background-color: $grey;
       width: 1.4rem;
       padding: 0.5rem;
       border-radius: 5px;
@@ -48,11 +50,11 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: gainsboro;
+      background-color: $grey;
       width: 11rem;
       height: 11rem;
       border-radius: 20% 1%;
-      color: black;
+      color: $text-color;
       box-shadow: 20px 20px 1px rgb(92, 92, 92);
     }
 
@@ -82,7 +84,7 @@
         margin-bottom: 0.5rem;
         font-size: 0.9rem;
         padding-right: 0.5rem;
-        border-right: 0.3rem solid gainsboro;
+        border-right: 0.3rem solid $grey;
       }
     }
   }

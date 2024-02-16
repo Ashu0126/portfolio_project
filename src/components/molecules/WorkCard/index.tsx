@@ -1,41 +1,62 @@
-import TextIcon from "../../atoms/TextIcon";
+"use client";
+import Link from "next/link";
 import style from "./index.module.scss";
 
-const WorkCard = () => {
+interface IWordCard {
+  index: string;
+  title: string;
+  description: string;
+  technologies: any;
+  img: any;
+  liveText: string;
+  liveIcon: string;
+  githubText: string;
+  githubIcon: string;
+  webLink: string;
+  githubLink: string;
+}
+
+const WorkCard = (props: IWordCard) => {
+  const {
+    index,
+    title,
+    description,
+    technologies,
+    liveText,
+    liveIcon,
+    githubText,
+    githubIcon,
+    webLink,
+    githubLink,
+    img,
+  } = props;
+
   return (
     <div className={style.workCard}>
+      {Number(index) % 2 === 0 && <img src={img} alt={title} />}
       <div className={style.workDetails}>
         <div className={style.info}>
-          <h2>01</h2>
-          <h3>Netflix Clone</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            culpa commodi in deleniti illo? Officia, cupiditate. Numquam
-            officiis vero enim. Voluptates odio a hic ut? Fugit voluptates
-            tempore eius perspiciatis. Esse, nostrum optio fuga voluptatibus
-            maxime alias, dicta quasi sapiente nulla a dolorem molestiae facilis
-            id perferendis. Eligendi ipsa fugiat perspiciatis perferendis quia
-            delectus eveniet rerum incidunt, ratione, odio recusandae!
-          </p>
+          <h2>{index}</h2>
+          <h3>{title}</h3>
+          <p>{description}</p>
           <div className={style.technology}>
-            <TextIcon />
-            <TextIcon />
-            <TextIcon />
-            <TextIcon />
+            {technologies.map((tech: string) => (
+              <p key={tech}>{tech}</p>
+            ))}
           </div>
         </div>
         <div className={style.links}>
-          <a href="#">
-            <img src="/img/liveLinkIcon.png" alt="" />
-            Live Site
-          </a>
-          <a href="#">
-            <img src="/img/github.png" alt="" />
-            Github
-          </a>
+          <Link href={webLink} target="_blank">
+            <img src={liveIcon} alt={liveText} />
+            {liveText}
+          </Link>
+          <Link href={githubLink} target="_blank">
+            <img src={githubIcon} alt={githubText} />
+            {githubText}
+          </Link>
         </div>
       </div>
-      <img src="/img/netflixClone.png" alt="" />
+      {Number(index) % 2 !== 0 && <img src={img} alt={title} />}
     </div>
   );
 };

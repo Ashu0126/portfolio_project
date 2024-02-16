@@ -1,0 +1,35 @@
+{
+  "heading": "LATEST WORK",
+  "githubText": "Github",
+  "githubIcon": "/img/github.png",
+  "liveText": "Live Site",
+  "liveIcon": "/img/liveLinkIcon.png",
+  "btnText": "view more",
+  "btnLink": "/my-projects",
+  "works": [
+    {
+      "name": "Weather Buddy",
+      "img": "/img/weatherBuddy.png",
+      "description": "Weather Buddy is a straightforward React app, seamlessly integrating the OpenWeather API. Users effortlessly access real-time weather updates for any city, obtaining essential details like humidity, weather conditions, and wind speed. With its intuitive interface and concise presentation, staying informed about the weather has never been easier or more accessible.",
+      "technologies": ["React", "TypeScript", "OpenWeather API", "SASS"],
+      "github": "https://github.com/Ashu0126/weather-buddy",
+      "webLink": "https://weather-buddy-five.vercel.app/"
+    },
+    {
+      "name": "LVease: Leave Management System",
+      "img": "/img/lvease.png",
+      "description": "Optimize your leave management process with our intuitive Leave Management System. Seamlessly request, track, and manage leaves, enhancing HR efficiency and ensuring seamless workforce planning. Simplify leave administration, empowering your team to focus on strategic tasks while ensuring smooth operations and employee satisfaction.",
+      "technologies": ["Next.Js", "TypeScript", "JSON", "SASS"],
+      "github": "https://github.com/Ashu0126/leave-management-system",
+      "webLink": "https://leave-management-system-five.vercel.app/"
+    },
+    {
+      "name": "Netflix Clone",
+      "img": "/img/netflixClone.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "github": "https://github.com/Ashu0126/Netflix_Clone",
+      "webLink": "https://netflix-clone-murex.vercel.app/"
+    }
+  ]
+}

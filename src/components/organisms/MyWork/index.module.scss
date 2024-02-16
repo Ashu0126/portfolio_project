@@ -1,3 +1,5 @@
+@import "./../../../styles/variables.scss";
+
 .latestWork {
   display: flex;
   justify-content: center;
@@ -7,5 +9,18 @@
   h1 {
     text-align: center;
     font-size: 6rem;
+  }
+
+  .btn {
+    background-color: $grey;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: $text-color;
+    align-self: center;
+
+    &:active {
+      transform: scale(0.95);
+    }
   }
 }
