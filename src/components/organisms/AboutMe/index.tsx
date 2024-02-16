@@ -8,7 +8,7 @@ const AboutMe = () => {
         <img src="/img/me.png" alt="" />
         <div className={style.text}>
           <p>
-            Hello! I'm Ashish Jaryal, a passionate front-end developer based in
+            Hello! Im Ashish Jaryal, a passionate front-end developer based in
             India. With a keen eye for detail and a love for creating intuitive
             user experiences, I thrive in the dynamic world of web development.
             My journey in this field has been both exhilarating and rewarding,
@@ -22,18 +22,18 @@ const AboutMe = () => {
             where I have honed my ability to communicate effectively and adapt
             to various project requirements. My latest endeavors have led me to
             Adani Digital Labs, where I am excited to contribute to innovative
-            projects that push the boundaries of what's possible. Here, I have
+            projects that push the boundaries of whats possible. Here, I have
             the opportunity to work alongside talented individuals who share my
             passion for creativity and innovation.
             <br />
             <br />
             Beyond coding, I am deeply committed to personal growth and
-            continuous learning. Whether it's exploring emerging trends in web
+            continuous learning. Whether its exploring emerging trends in web
             development or delving into design principles, I am always eager to
             broaden my horizons and stay ahead of the curve.
             <br />
             <br />
-            When I'm not coding, you can find me indulging in my other passions,
+            When Im not coding, you can find me indulging in my other passions,
             which include singing, listening to music, photography, and reading
             about new technologies. I believe in maintaining a healthy work-life
             balance, as I find that it fuels my creativity and enhances my
