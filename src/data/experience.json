@@ -1,0 +1,17 @@
+{
+  "heading": "EXPERIENCE",
+  "work": [
+    {
+      "timeline": "July 2023 - Dec 2023",
+      "companyName": "Adani Digital Labs",
+      "position": "Front End Intern",
+      "description": "<p>Successfully delivered multiple modules within specified timelines, significantly enhancing the websites features and functionality.<br/><br/>Received commendations for effectively resolving critical bugs, minimizing downtime, and contributing to the overall improvement of platform reliability. Played a key role in the successful integration of Next.js with .NET and Sitecore APIs. Resulted in improved website performance and scalability, showcasing a commitment to technological innovation and efficiency.<br/><br/>Technologies and Tools Used: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Bootstrap, .NET, Sitecore, Git version control, Agile methodologies.</p>"
+    },
+    {
+      "timeline": "July 2022 - Sept 2022",
+      "companyName": "NAWADCO: National Developement Corporation Ltd",
+      "position": "Summer Intern",
+      "description": "<p>Successfully revamped the organizations website, receiving positive feedback for the improved user experience and aesthetics.<br/><br/>Data Analysis and Visualization: Provided valuable insights through data analysis, aiding the organization in making data-driven decisions. Created interactive and visually appealing data visualizations using Tableau.Graphic Design: Contributed creative graphics for events, campaigns, and presentations using Canva, effectively conveying key messages. Received appreciation for delivering high-quality design work within tight deadlines.<br/><br/>Technologies and Tools Used: Web Design: HTML5, CSS3, Data Analysis: Python (Pandas, NumPy), Jupyter Notebooks, Data Visualization: Tableau, Graphic Design: Canva</p>"
+    }
+  ]
+}
