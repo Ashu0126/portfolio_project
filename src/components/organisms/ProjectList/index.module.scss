@@ -1,4 +1,6 @@
 .projects {
+  min-height: 100vh;
+
   h1 {
     text-align: center;
     margin-top: 9rem;
@@ -23,5 +25,18 @@
     margin: 5rem 0rem 8rem;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .projects {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .projectCards {
+      grid-template-columns: 1fr;
+      margin: 3rem;
+    }
   }
 }

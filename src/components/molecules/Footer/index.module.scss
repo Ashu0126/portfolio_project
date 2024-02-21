@@ -3,11 +3,8 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 5rem;
+  padding: 5rem;
   align-items: center;
-  height: 50vh;
-  background-size: contain;
-  background-position-x: right;
   box-shadow: 1px 1px 20px $grey;
   position: relative;
 
@@ -86,6 +83,31 @@
         padding-right: 0.5rem;
         border-right: 0.3rem solid $grey;
       }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    padding: 2rem;
+
+    .social {
+      width: 100%;
+      margin-bottom: 3rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    .navtab {
+      text-align: start;
+      width: 100%;
     }
   }
 }
