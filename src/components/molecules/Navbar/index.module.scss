@@ -46,7 +46,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .navbar {
     h3 {
       margin-left: 2rem;
@@ -55,6 +55,18 @@
 
     ul {
       display: none;
+    }
+
+    .name {
+      margin-top: 3rem;
+      width: 100%;
+      height: max-content;
+
+      h1 {
+        position: relative;
+        padding: 1.5rem 2rem;
+        font-size: 3rem;
+      }
     }
   }
 }
