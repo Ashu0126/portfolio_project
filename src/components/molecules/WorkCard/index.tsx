@@ -1,8 +1,9 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import style from "./index.module.scss";
 
-interface IWordCard {
+interface IWorkCard {
   index: string;
   title: string;
   description: string;
@@ -16,7 +17,7 @@ interface IWordCard {
   githubLink: string;
 }
 
-const WorkCard = (props: IWordCard) => {
+const WorkCard = (props: IWorkCard) => {
   const {
     index,
     title,
@@ -31,9 +32,24 @@ const WorkCard = (props: IWordCard) => {
     img,
   } = props;
 
+  const [isDesktop, setIsDesktop] = useState<boolean>(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.matchMedia("(min-width: 850px)").matches);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className={style.workCard}>
-      {Number(index) % 2 === 0 && <img src={img} alt={title} />}
+      {isDesktop && Number(index) % 2 === 0 && (
+        <img src={img} alt={title} className={style.projectImage} />
+      )}
       <div className={style.workDetails}>
         <div className={style.info}>
           <h2>{index}</h2>
@@ -56,7 +72,9 @@ const WorkCard = (props: IWordCard) => {
           </Link>
         </div>
       </div>
-      {Number(index) % 2 !== 0 && <img src={img} alt={title} />}
+      {(!isDesktop || Number(index) % 2 !== 0) && (
+        <img src={img} alt={title} className={style.projectImage} />
+      )}
     </div>
   );
 };
