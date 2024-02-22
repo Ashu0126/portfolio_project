@@ -20,3 +20,17 @@
     bottom: 0;
   }
 }
+
+@media (max-width: 750px) {
+  .main {
+    width: 100%;
+    .aboutMe {
+      font-size: 0.8rem;
+      margin: 2rem;
+    }
+
+    .photoMe {
+      width: 15rem;
+    }
+  }
+}
