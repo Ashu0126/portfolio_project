@@ -23,6 +23,14 @@
     }
   }
 
+  .menuIcon {
+    display: none;
+  }
+
+  .heading {
+    display: none;
+  }
+
   ul {
     display: flex;
     gap: 0.5rem;
@@ -53,8 +61,45 @@
       font-size: 1.2rem;
     }
 
-    ul {
+    .menuIcon {
+      display: block;
+      width: 2rem;
+      margin: 0.8rem;
+      position: absolute;
+      right: 0;
+    }
+
+    .navItem {
       display: none;
+      position: fixed;
+      right: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: aliceblue;
+      z-index: 7;
+
+      .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+        h4 {
+          font-size: 1.3rem;
+        }
+        img {
+          width: 1.5rem;
+        }
+      }
+
+      ul {
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    .navOpen {
+      display: block;
     }
 
     .name {
