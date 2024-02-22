@@ -5,9 +5,11 @@ import style from "./index.module.scss";
 const Navbar = () => {
   const [isHome, setIsHome] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
+  const [pathName, setPathname] = useState("");
 
   useEffect(() => {
     setIsHome(window?.location?.pathname === "/");
+    setPathname(window?.location?.pathname);
   }, []);
 
   const toggleMenu = () => {
@@ -39,10 +41,18 @@ const Navbar = () => {
           />
         </div>
         <ul>
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>RESUME</li>
-          <li>HIRE ME</li>
+          <a href="/" className={pathName === "/" ? style.selected : ""}>
+            <li>ABOUT</li>
+          </a>
+          <a
+            href="/my-projects"
+            className={pathName === "/my-projects" ? style.selected : ""}
+          >
+            <li>PROJECTS</li>
+          </a>
+          <a href="/pdf/Resume_Ashish.pdf" target="_blank">
+            <li>RESUME</li>
+          </a>
         </ul>
       </div>
     </div>
