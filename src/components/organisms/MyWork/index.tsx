@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const MyWork = () => {
   return (
-    <div className={style.latestWork}>
+    <div className={style.latestWork} id="work">
       <h1>{pageData.heading}</h1>
       {pageData?.works?.map((work, index) => {
         return (
