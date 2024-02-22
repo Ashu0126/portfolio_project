@@ -3,10 +3,41 @@
 .main {
   height: 100vh;
 
+  .info {
+    a {
+      animation: moveDown infinite 1.5s;
+      background-color: transparent;
+      margin-left: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+
+      img {
+        width: 1.2rem;
+      }
+    }
+  }
+
+  @keyframes moveDown {
+    0% {
+      transform: translateY(0.3rem);
+    }
+    50% {
+      transform: translateY(0rem);
+    }
+    100% {
+      transform: translateY(0.3rem);
+    }
+  }
+
   .aboutMe {
     display: grid;
     width: 45%;
-    margin: 3rem 4rem;
+    margin: 2rem 4rem;
     font-weight: 500;
     font-size: 1.1rem;
     span {
@@ -24,8 +55,17 @@
 @media (max-width: 750px) {
   .main {
     width: 100%;
+
+    .info {
+      a {
+        justify-content: flex-start;
+        margin-left: 2rem;
+        font-size: 0.9rem;
+      }
+    }
+
     .aboutMe {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       margin: 2rem;
     }
 

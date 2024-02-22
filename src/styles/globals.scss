@@ -1,4 +1,12 @@
+@import "./variables.scss";
+
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
 }
