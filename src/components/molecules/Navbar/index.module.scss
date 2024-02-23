@@ -69,11 +69,11 @@
     }
 
     .navItem {
-      display: none;
       position: fixed;
-      right: 0;
+      animation: open 1s reverse;
+      right: -250px;
       height: 100vh;
-      width: 100%;
+      transition: right 0.3s ease;
       background-color: $white;
       z-index: 7;
 
@@ -98,7 +98,9 @@
     }
 
     .navOpen {
-      display: block;
+      right: 0;
+      width: 90%;
+      transition: right 0.3s ease;
     }
 
     .name {

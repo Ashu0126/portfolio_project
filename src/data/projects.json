@@ -23,28 +23,28 @@
     {
       "name": "Netflix Clone",
       "img": "/img/netflixClone.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "description": "A Netflix UI clone replicates Netflix's interface using HTML for structure, CSS for styling, and JavaScript for interactivity, allowing users to browse and view streaming content similarly to the original platform.",
       "github": "https://github.com/Ashu0126/Netflix_Clone",
       "webLink": "https://netflix-clone-murex.vercel.app/"
     },
     {
       "name": "Paytm Clone",
       "img": "/img/paytmClone.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "description": "A Paytm UI clone created with HTML, CSS, and JavaScript replicates Paytm's interface design, including features like payment options, transactions, and user authentication, providing a visually and functionally similar experience to the original platform.",
       "github": "https://github.com/Ashu0126/Final-Touch",
       "webLink": "https://final-touch.vercel.app/"
     },
     {
       "name": "Lernr",
       "img": "/img/lernr.png",
-      "description": "Welcome to Lernr Lms. This is a learning management system. Have different types of course in it. You can log in, logout or even signup an account. The lms is built with node js, mongodb and node js",
+      "description": "Lernr LMS: A Node.js and MongoDB-based learning management system offering course variety. Features include login, logout, and signup functionalities for user accounts.",
       "github": "https://github.com/Ashu0126/lernr_lms",
       "webLink": "https://lernr-lms.herokuapp.com/"
     },
     {
       "name": "Blog Site",
       "img": "/img/blogApp.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "description": "A blog site built with Next.js integrates Sass for styling, utilizes API fetch for data retrieval, and implements CRUD functionality for managing content, enabling seamless creation, reading, and deletion of blog posts.",
       "github": "https://github.com/Ashu0126/web.dev",
       "webLink": "https://blogs-omega-ten.vercel.app/"
     },
@@ -58,7 +58,7 @@
     {
       "name": "Quote Generator",
       "img": "/img/quoteGenerator.png",
-      "description": "The Project is simple. It can be used to draw a random Quote by clicking the generate Button.",
+      "description": "A simple project generating random quotes upon button click, implemented with JavaScript for functionality and basic HTML/CSS for structure and styling.",
       "github": "https://github.com/Ashu0126/quoteGenerator",
       "webLink": "https://quote-generator-ashu0126.vercel.app/"
     }
