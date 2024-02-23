@@ -50,9 +50,9 @@
   }
 
   .timelineEventCopy {
-    padding: 2em;
+    padding: 2rem;
     position: relative;
-    top: -1.875em;
+    top: -1.875rem;
     left: 4rem;
     width: 80%;
 
@@ -75,7 +75,7 @@
   .timelineEventIcon {
     transition: 1s;
     background-color: $text-color;
-    outline: 10px solid white;
+    outline: 10px solid $white;
     display: block;
     margin: 0.5rem 0.5rem 0.5rem -0.5rem;
     position: absolute;
