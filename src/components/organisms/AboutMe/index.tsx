@@ -1,8 +1,8 @@
 import Navbar from "../../molecules/Navbar";
 import style from "./index.module.scss";
-import pageData from "./../../../data/me.json";
+import pageData from "../../../data/aboutMe.json";
 
-const HeroBanner = () => {
+const AboutMe = () => {
   return (
     <div className={style.main}>
       <Navbar />
@@ -23,4 +23,4 @@ const HeroBanner = () => {
   );
 };
 
-export default HeroBanner;
+export default AboutMe;

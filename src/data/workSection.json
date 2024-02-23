@@ -26,7 +26,7 @@
     {
       "name": "Netflix Clone",
       "img": "/img/netflixClone.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, non. Quibusdam, reprehenderit! Saepe maxime magnam omnis optio recusandae ad. Doloremque suscipit esse expedita sapiente ut, odio at aut enim dicta?",
+      "description": "A Netflix UI clone replicates Netflix's interface using HTML for structure, CSS for styling, and JavaScript for interactivity, allowing users to browse and view streaming content similarly to the original platform.",
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "github": "https://github.com/Ashu0126/Netflix_Clone",
       "webLink": "https://netflix-clone-murex.vercel.app/"
