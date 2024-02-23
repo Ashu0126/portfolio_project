@@ -1,0 +1,9 @@
+{
+  "info": "<span>Hello!</span> Highly passionated Front-end developer from India. Dedicated to creating smooth user experiences. Passionate about front-end development. Latest work at Adani Digital Labs.",
+  "button": {
+    "text": "Recent Work",
+    "icon": "/img/downArrow.png",
+    "link": "#work"
+  },
+  "mainPicture": "/img/me.png"
+}

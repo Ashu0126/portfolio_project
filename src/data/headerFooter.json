@@ -1,0 +1,26 @@
+{
+  "title": "PORTFOLIO",
+  "name": "Ashish Jaryal",
+  "navTabs": [
+    { "navItem": "ABOUT", "navLink": "/" },
+    { "navItem": "PROJECTS", "navLink": "/my-projects" },
+    { "navItem": "RESUME", "navLink": "/pdf/Resume_Ashish.pdf" }
+  ],
+  "contact": {
+    "heading": "Let's Connect",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantiumvoluptatibus, ipsam repudiandae, magni optio id recusandae, illotemporibus ab",
+    "social": [
+      {
+        "icon": "/img/facebook.png",
+        "link": "https://www.facebook.com/ashish.jaryal.399/"
+      },
+      { "icon": "/img/github.png", "link": "https://github.com/Ashu0126" },
+      {
+        "icon": "/img/linkedin.png",
+        "link": "https://www.linkedin.com/in/ashish-jaryal/"
+      }
+    ]
+  },
+  "hamburgerIcon": "/img/hamburgerIcon.png",
+  "crossIcon": "/img/crossIcon.png"
+}
